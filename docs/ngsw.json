@@ -1,0 +1,77 @@
+{
+  "configVersion": 1,
+  "timestamp": 1765893919324,
+  "index": "/aqua3/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/aqua3/index.html",
+        "/aqua3/main.d3b5c412c7cb592a.js",
+        "/aqua3/polyfills.b3150055b43d797d.js",
+        "/aqua3/runtime.746f4908ad053e34.js",
+        "/aqua3/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/aqua3/assets/icons/icon-128x128.png",
+        "/aqua3/assets/icons/icon-144x144.png",
+        "/aqua3/assets/icons/icon-152x152.png",
+        "/aqua3/assets/icons/icon-192x192.png",
+        "/aqua3/assets/icons/icon-384x384.png",
+        "/aqua3/assets/icons/icon-512x512.png",
+        "/aqua3/assets/icons/icon-72x72.png",
+        "/aqua3/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/aqua3/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/aqua3/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/aqua3/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/aqua3/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/aqua3/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/aqua3/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/aqua3/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/aqua3/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/aqua3/index.html": "7a063893b9e901a30d2f71796d4aae0911f5e470",
+    "/aqua3/main.d3b5c412c7cb592a.js": "7cea6a09515778859756423dd293f34f3ff20f83",
+    "/aqua3/polyfills.b3150055b43d797d.js": "42f2573ed58377d8088adaab48f8c59121e1ad1c",
+    "/aqua3/runtime.746f4908ad053e34.js": "61fc7acc1b1a7130b70aa63eb78fd7e56f776c54",
+    "/aqua3/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
